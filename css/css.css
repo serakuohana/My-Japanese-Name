@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #c4dded;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#ja_en, header, #slider, #main01 {
+  margin: 0 auto 0 auto;
+  width: 1000px;
+  background-color: white;
+}
+#ja_en ul {
+  margin-right: 110px;
+}
+#ja_en ul li {
+  float: right;
+  padding-left: 10px;
+}
+header h1 {
+  clear: both;
+  text-align: center;
+  margin-bottom: 0;
+}
+#banner {
+  position: absolute;
+}
+#banner ul {
+  text-align: center;
+  position: fixed;
+  float: right;
+  top: 200px;
+  right: 60px;
+}
+#slider {
+  text-align: center;
+}
+#main01 h2 {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
