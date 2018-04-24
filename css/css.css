@@ -10,16 +10,20 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
-#ja_en, header, #slider, #main01 {
+#ja_en, header, #slider01,
+ #main01, #main02, #main03,
+ #main04, footer {
   margin: 0 auto 0 auto;
-  width: 1000px;
+  width: 1080px;
   background-color: white;
 }
 #ja_en ul {
+  margin-top: 0;
   margin-right: 110px;
 }
 #ja_en ul li {
   float: right;
+  margin-top: 0;
   padding-left: 10px;
 }
 header h1 {
@@ -37,11 +41,177 @@ header h1 {
   top: 200px;
   right: 60px;
 }
-#slider {
+.hk {
+  background-image: url("../images/henkan01.png") no-repeat;
+}
+.hk a {
+  display: block;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.hk img {
+  border: none;
+}
+.hk a:hover {
+  background: none;
+}
+.hk a:hover img {
+  visibility: hidden;
+}
+#slider01 {
   text-align: center;
+  padding: 0 40px;
 }
 #main01 h2 {
   margin: 0;
   padding-top: 30px;
   text-align: center;
+}
+#main01 p {
+  text-align: center;
+}
+#main01 .tom {
+  text-align: center;
+}
+#main01 .tom img {
+  padding: 10px 70px;
+}
+#main01 .henkan {
+  background-color: #c4dded;
+  text-align: center;
+  width: 1000px;
+  margin: 0 40px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+}
+#main01 .henkan h2 {
+  color: red;
+}
+#main01 .henkan input {
+  vertical-align: middle;
+}
+#main01 .henkan input#search {
+  height: 47px;
+  width: 340px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#main01 .henkan input#kensaku {
+  padding-left: 8px;
+}
+#main02 h2 {
+  margin: 0;
+  padding: 50px 40px 20px 40px;
+}
+#main02 h3 {
+  padding-left: 40px;
+  float: left;
+}
+#main02 table {
+  float: right;
+  padding-right: 40px;
+  background-color: white;
+}
+#main02 table tr th {
+  padding-top: 10px;
+}
+#main02 #step_slider {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+#main02 #step_slider ul#thumbnail-list {
+  clear: both;
+}
+#main02 #step_slider ul#thumbnail-list li {
+  float: left;
+}
+#main02 #step_slider ul#slider02 {
+  clear: both;
+  padding: 50px 55px;
+  margin: 0;
+}
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+.prev-arrow {
+  left: 10px;
+}
+.next-arrow {
+  right: 10px;
+}
+#main03 h2 {
+  margin: 0;
+  padding: 50px 40px 20px 40px;
+}
+#main03 h3 {
+  text-align: center;
+}
+#main03 .goraiten {
+  text-align: center;
+}
+.goraiten04 {
+  margin-bottom: 0;
+}
+#main04 h2 {
+  margin: 0;
+  padding: 50px 40px 20px 40px;
+}
+#main04 h3 {
+  border-bottom: 1px solid;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#main04 dl dt {
+  float: left;
+  clear: left;
+}
+.otodoke01, .otodoke02,
+.osiharai02,
+.haisouryou01, .haisouryou02 {
+  margin-left: 85px;
+}
+.otodoke02, .osiharai02 {
+  margin-bottom: 40px;
+}
+.haisouryou02 {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+.osiharai01 {
+  list-style-type: disc;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+.otodoke02 a {
+  text-decoration: none;
+}
+footer, footer h3, footer dl {
+  margin-top: 0;
+}
+footer dl {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+footer dl dt {
+  float: left;
+  clear: left;
+  margin-left: 250px;
+  padding-top: 30px;
+}
+footer dl dd {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer dl dd img {
+  vertical-align: middle;
+}
+footer a img {
+  float: right;
 }
