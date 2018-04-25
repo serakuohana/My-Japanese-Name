@@ -22,8 +22,8 @@ $(function(){
   $(slider).slick({
     autoplay: true,
     arrows: true,
-    prevArrow: '<img src="images/arrow_left.png" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="images/arrow_right.png" class="slide-arrow next-arrow">',
+    prevArrow: '<img src="images_pc/arrow_left.png" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="images_pc/arrow_right.png" class="slide-arrow next-arrow">',
     infinite: true
   });
   $(thumbnailItem).on('click',function(){
@@ -33,9 +33,9 @@ $(function(){
   $(slider).on('beforeChange',function(event,slick, currentSlide,nextSlide){
     $(thumbnailItem).each(function(){
     $(this).removeClass("thumbnail-current")
-    .removeClass("filter").css("filter","brightness(0.3)");
+    .removeClass("filter").css("background-color", "white").css("color", "red");
   });
   $(thumbnailItem+'[data-index="'+nextSlide+'"]')
-    .addClass("thumbnail-current").removeClass("filter").css("filter","brightness(1)");
+    .addClass("thumbnail-current").removeClass("filter").css("background-color", "red").css("color", "white");
   });
 });

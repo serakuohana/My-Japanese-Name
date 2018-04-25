@@ -11,12 +11,17 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
 #ja_en, header, #slider01,
  #main01, #main02, #main03,
  #main04, footer {
   margin: 0 auto 0 auto;
   width: 1080px;
-  background-color: white;
+  background-color: #c4dded;
 }
 
 /*header*/
@@ -42,12 +47,11 @@ header h1 {
 #banner ul {
   text-align: center;
   position: fixed;
-  float: right;
-  top: 200px;
-  right: 60px;
+  top: 30%;
+  right: 4%;
 }
 .hk {
-  background-image: url("../images/henkan01.png");
+  background-image: url("../images_pc/henkan01.png");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -69,7 +73,7 @@ header h1 {
   visibility: hidden;
 }
 .erb {
-  background-image: url("../images/erabu01.png");
+  background-image: url("../images_pc/erabu01.png");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -115,7 +119,7 @@ header h1 {
   text-align: center;
   position: absolute;
   bottom: 80px;
-  right: 270px;
+  right: 250px;
 }
 
 /*main01*/
@@ -209,10 +213,37 @@ header h1 {
 }
 #main02 #step_slider ul#thumbnail-list {
   clear: both;
+  display: inline-block;
+  width: 1000px;
+  height: 70px;
+  border: 2px solid red;
+  border-radius: 10px;
 }
 #main02 #step_slider ul#thumbnail-list li {
   float: left;
+  display: inline-block;
+  width: 332px;
+  height: 30px;
+  text-align: center;
+  padding: 20px 0;
+  border-left: 2px solid red;
+  color: red;
+  font-size: 130%;
+  font-weight: bold;
 }
+#main02 #step_slider ul#thumbnail-list li:first-child {
+   border-left: none;
+   border-bottom-left-radius: 8px;
+   border-top-left-radius: 8px;
+ }
+ #main02 #step_slider ul#thumbnail-list li:last-child {
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px
+ }
+ #main02 #step_slider ul#thumbnail-list li:hover {
+   color: white;
+   background-color: red;
+ }
 #main02 #step_slider ul#slider02 {
   clear: both;
   padding: 50px 55px;
