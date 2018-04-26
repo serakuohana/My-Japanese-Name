@@ -1,5 +1,14 @@
 $(function() {
-    $("#slider01").slick({
+    $("#slider01_pc").slick({
+      autoplay: true,
+      autoplayspeed: 3000,
+      arrows: false,
+      dots: true,
+      infinite: true
+    });
+});
+$(function() {
+    $("#slider01_sp").slick({
       autoplay: true,
       autoplayspeed: 3000,
       arrows: false,

@@ -10,26 +10,27 @@
   <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" media="screen">
 </head>
 <body>
-  <div id="ja_en">
-    <ul>
-      <li><a href="index_en.html"><img src="images_pc/english.png" alt="english"></a></li>
-      <li><a href="index_ja.html"><img src="images_pc/japanese.png" alt="日本語"></a></li>
-    </ul>
-  </div>
   <header id="top">
-    <h1><a href="index_ja.html"><img src="images_pc/logo01.png" alt="My Japanese Name"></a></h1>
+    <div id="ja_en">
+      <ul>
+        <li><a href="index_en.html"><img src="images_pc/english.png" alt="english"></a></li>
+        <li><a href="index_ja.html"><img src="images_pc/japanese.png" alt="日本語"></a></li>
+      </ul>
+    </div>
+    <h1 class="pc_img"><a href="index_ja.html"><img src="images_pc/logo01.png" alt="My Japanese Name"></a></h1>
+    <h1 class="sp_img"><a href="index_ja.html"><img src="images_sp/logo01_sp.png" alt="My Japanese Name"></a></h1>
   </header>
   <div id="banner">
     <ul>
       <li class="hk"><a href="index_ja.html"><img src="images_pc/henkan02.png" alt="変換"><br>変換する</a></li>
       <li class="erb"><a href="index_ja.html"><img src="images_pc/erabu02.png" alt="選ぶ"><br>選ぶ</a></li>
-      <li><a href="index_ja.html"><img src="images_pc/fasebook.png" alt=""></a></li>
-      <li><a href="index_ja.html"><img src="images_pc/twitter.png" alt=""></a></li>
-      <li><a href="index_ja.html"><img src="images_pc/insta.png" alt=""></a></li>
+      <li class="sns"><a href="index_ja.html"><img src="images_pc/fasebook.png" alt=""></a></li>
+      <li class="sns"><a href="index_ja.html"><img src="images_pc/twitter.png" alt=""></a></li>
+      <li class="sns"><a href="index_ja.html"><img src="images_pc/insta.png" alt=""></a></li>
     </ul>
   </div>
   <div id="slider001">
-    <ul id="slider01">
+    <ul id="slider01_pc" class="pc_img">
       <li><img src="images_pc/main01_ja.png" alt="あなたの漢字どんな感じ？"></li>
       <li><img src="images_pc/main02_ja.png" alt="思い通りのオンリーワンを！"></li>
       <li><img src="images_pc/main03_ja.png" alt="日本中の逸品がここに！"></li>
@@ -37,12 +38,16 @@
     <span id="henkansitemiru"><a href="index_ja.html"><h2>変換してみる！</h2></a></span>
   </div>
   <div id="main01">
-    <h2><img src="images_pc/my_nametoha02.png"></h2>
+    <h2 class="pc_img"><img src="images_pc/my_nametoha02.png"></h2>
+    <h2 class="sp_img"><img src="images_sp/mynametoha_sp.png"></h2>
     <p>それぞれ感じには、いろいろな意味があることを知っていますか。<br>
       例えば、同じトムという名前でも感じにすると、たくさんのバリエーションがあり、<br>
     それぞれ意味が違っています。</p>
-    <div class="tom">
-      <img src="images_pc/tom01.png" alt="tom01"><img src="images_pc/tom02.png" alt="tom02">
+    <div id="tom01" class="pc_img">
+      <img src="images_pc/tom.png" alt="tom01">
+    </div>
+    <div id="tom02" class="sp_img">
+      <img src="images_sp/tom_sp.png" alt="tom01">
     </div>
     <p>好きな組み合わせを選び、出来た名前を使って<br>
       オリジナルグッズを作りましょう！！</p>
@@ -52,7 +57,8 @@
     </div>
   </div>
   <div id="main02">
-    <h2 class="steps"><img src="images_pc/steps.png" alt="steps"></h2>
+    <h2 class="pc_img"><img src="images_pc/steps.png" alt="steps"></h2>
+    <h2 class="sp_img"><img src="images_sp/steps_sp.png" alt="steps"></h2>
     <h3 class="pc"><img src="images_pc/pc.png" alt="pc"></h3>
     <table class="step">
       <tr>
@@ -78,7 +84,8 @@
     </div>
   </div>
   <div id="main03">
-    <h2 class="open"><img src="images_pc/open.png" alt="open"></h2>
+    <h2 class="pc_img"><img src="images_pc/open.png" alt="open"></h2>
+    <h2 class="sp_img"><img src="images_sp/open_sp.png" alt="open"></h2>
     <h3 class="haneda"><img src="images_pc/open_icon.png" alt=""><img src="images_pc/haneda_ja02.png" alt=""></h3>
     <div class="goraiten">
       <p class="goraiten01"><strong>ご来店のお客様に、もれなく特製扇子をプレゼント!!</strong><small>（※１）</small><br>
@@ -91,7 +98,8 @@
     </div>
   </div>
   <div id="main04">
-    <h2 class="servis"><img src="images_pc/servis.png" alt="servis"></h2>
+    <h2 class="pc_img"><img src="images_pc/servis.png" alt="servis"></h2>
+    <h2 class="sp_img"><img src="images_sp/servis_sp.png" alt="servis"></h2>
     <div class="otodoke">
       <h3>■お届け期間</h3>
       <p class="otodoke01">商品により異なります。<br>
@@ -132,9 +140,11 @@
   <footer>
     <dl>
       <dt><h3>提供</h3></dt>
-      <dd><img src="images_pc/seraku.png" alt="seraku"></dd>
+      <dd class="pc_img"><img src="images_pc/seraku.png" alt="seraku"></dd>
+      <dd class="sp_img"><img src="images_sp/seraku_sp.png" alt="seraku"></dd>
       <dt><h3>協賛</h3></dt>
-      <dd><img src="images_pc/tokyo.png" alt="tokyo"><img src="images_pc/emblem.png" alt="orinpic"></dd>
+      <dd class="pc_img"><img src="images_pc/tokyo.png" alt="tokyo"></dd>
+      <dd class="sp_img"><img src="images_sp/tokyo_sp.png" alt="tokyo"></dd>
     </dl>
     <a href="#top" class="return"><img src="images_pc/return.png" alt=""></a>
   </footer>
