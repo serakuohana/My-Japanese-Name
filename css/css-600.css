@@ -27,6 +27,9 @@ ul {
 }
 
 /*header*/
+header {
+  padding-top: 30px;
+}
 #ja_en ul {
   margin-top: 0;
   margin-right: 110px;
@@ -107,7 +110,7 @@ header h1.pc_img , header h1.sp_img {
 #slider001 {
   position: relative;
 }
-#henkansitemiru a h2 {
+#henkansitemiru a {
   margin: 0;
   padding: 20px 0 0 0;
   display: inline-block;
@@ -116,6 +119,8 @@ header h1.pc_img , header h1.sp_img {
   vertical-align: middle;
   background-color: white;
   color: red;
+  font-weight: bold;
+  font-size: 150%;
   border: 1px solid red;
   text-decoration: none;
   border-radius: 10px;
@@ -184,26 +189,38 @@ header h1.pc_img , header h1.sp_img {
   padding-right: 40px;
   background-color: white;
 }
+
 #main02 table tr th {
   padding-top: 10px;
 }
-#tukuttemiru h2 {
+.step123 {
+  padding-top: 20px;
+  display: block;
+  width: 175px;
+  float: left;
+  margin-left: 10px;
+}
+.step123 img {
+  width: 175px;
+  height: auto;
+}
+.tukuttemiru {
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 20px 0 0 0;
   display: inline-block;
   height: 49px;
   width: 560px;
   background-color: red;
   color: white;
+  font-size: 130%;
   text-decoration: none;
   vertical-align: middle;
   border-radius: 10px;
 }
-#tukuttemiru h2 a {
+.tukuttemiru a {
   display: block;
   height: 64px;
   width: 560px;
-  background-color: red;
   color: white;
   text-decoration: none;
 }
@@ -343,7 +360,11 @@ footer dl dd {
   margin-left: auto;
   margin-right: auto;
 }
-
+footer {
+  position: relative;
+}
 footer a img {
-  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
 }
