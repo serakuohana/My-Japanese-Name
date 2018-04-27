@@ -184,14 +184,14 @@ header h1.sp_img {
 }
 #search {
   height: 47px;
-  width: 290px;
+  width: 50%;
   margin-left: 18%;
   font-size: 30px;
   border-radius: 10px;
 }
 #convert {
   margin-left: 8px;
-  width: 95px;
+  width: 15%;
   height: 50px;
   background-color: red;
   font-size: 125%;
