@@ -70,7 +70,7 @@ header h1.sp_img {
   top: -200px;
   left: 10%;
   width: 100%;
-  background-image: url("../../images_sp/header_line.png");
+  background-image: url("../images_sp/header_line.png");
   background-repeat: repeat-x;
   background-position: bottom;
 }
@@ -81,7 +81,7 @@ header h1.sp_img {
   text-align: center;
 }
 .hk {
-  background-image: url("../../images_pc/henkan01.png");
+  background-image: url("../images_pc/henkan01.png");
   background-repeat: no-repeat;
   background-position: center top;
 }
