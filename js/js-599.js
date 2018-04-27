@@ -17,6 +17,8 @@ $(function() {
     });
 });
 
+
+
 $(function(){
   var slider = "#slider02";
   var thumbnailItem = "#thumbnail-list .thumbnail-item";
