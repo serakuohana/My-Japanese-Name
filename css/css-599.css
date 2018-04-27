@@ -135,6 +135,7 @@ header h1.sp_img {
 #slider01 {
   text-align: center;
   padding: 0 40px;
+  width: 100%
   position: relative;
 }
 #slider001 {
@@ -229,7 +230,7 @@ header h1.sp_img {
   padding: 20px 0 0 0;
   display: inline-block;
   height: 49px;
-  width: 95%;
+  width: 99%;
   background-color: red;
   color: white;
   font-size: 130%;
