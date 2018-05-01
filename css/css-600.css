@@ -11,7 +11,8 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
-#ja_en, header, #slider01_pc,
+#ja_en, header,  #slider001,
+ #slider01_pc,
  #main01, #main02, #main03,
  #main04, footer {
   margin: 0 auto 0 auto;
