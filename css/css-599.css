@@ -65,10 +65,9 @@ header h1.sp_img {
   float: left;
   display: inline-block;
   text-align: center;
-  padding-left: 5%;
+  padding-left: 1%;
   position: relative;
   top: -200px;
-  left: 10%;
   width: 100%;
   background-image: url("../images_sp/header_line.png");
   background-repeat: repeat-x;
@@ -96,7 +95,7 @@ header h1.sp_img {
 }
 .hk img {
   border: none;
-  padding-left: 9%;
+  padding-left: 10%;
 }
 .hk a:hover {
   background: none;
@@ -174,6 +173,10 @@ header h1.sp_img {
 }
 #tom02 {
   padding-left: 10%;
+}
+#main01 .henkan {
+  background-color: #c4dded;
+  padding-bottom: 20px;
 }
 #main01 .henkan h2 {
   color: red;
@@ -286,7 +289,7 @@ header h1.sp_img {
  }
 #main02 #step_slider ul#slider02 {
   clear: both;
-  padding: 50px 55px;
+  padding: 50px 55px 0 55px;
   margin: 0;
 }
 .slide-arrow {
